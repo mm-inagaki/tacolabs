@@ -1,0 +1,17 @@
+---
+layout: default
+title: Base layers
+permalink: /base-layers/
+---
+
+This is where you'll find meats, beans, tofu, and other things that make up the 'base' of your taco goodness.<br><br>
+
+
+{% assign filtered_posts = site.posts | where: "categories", "base-layers" %}
+{% for post in filtered_posts %}
+
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+
+{% endfor %}
+
