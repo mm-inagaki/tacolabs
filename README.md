@@ -2,6 +2,14 @@
 
 This is the example static website for the *Fastly 101: Delivery* tutorial. 
 
+## How to use this repository
+
+There are two ways of using this repository. 
+
+You can fork or clone the repository and use the [Jekyll static site generator](https://jekyllrb.com) to build the site from scratch. 
+
+Alternatively, if you'd prefer not to install Jekyll and the dependencies, you can access the fully built website in the `_built` directory. You could manually upload the HTML files and assets in that directory to an Amazon S3 bucket.
+
 ## Running locally
 
 It can be helpful to preview changes on your computer. After forking or cloning this repository, perform the following steps to generate the site and preview it:
