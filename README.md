@@ -23,6 +23,25 @@ It can be helpful to preview changes on your computer. After forking or cloning 
 
 If you want to build the site locally (output to HTML), follow the instructions above to install ruby and the gems, then run `bundle exec jekyll build`. The site will be built and saved in the `_site` directory.
 
+## AWS S3 configuration
+
+If you decide to host your site in an AWS S3 bucket, you should make the bucket public and enable the S3 static website hosting feature. You may also need to add a bucket policy similar to the one we're using:
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AddPerm",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::www.tacolabs.com/*"
+        }
+    ]
+}
+```
+
 ## Security concerns
 
 To report security concerns with this source code or the Taco Labs website, use https://www.fastly.com/security/report-security-issue.
