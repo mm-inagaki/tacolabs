@@ -1,6 +1,6 @@
 # Taco Labs :taco:
 
-This is the example static website for the *Fastly 101: Delivery* tutorial. 
+This is the example static website for the [*Fastly 101: Delivery*](https://docs.fastly.com/en/fastly-101/) tutorial. 
 
 ## How to use this repository
 
