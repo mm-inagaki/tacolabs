@@ -18,7 +18,7 @@
             <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                <span class="fs-4"><img src="https://image.flaticon.com/icons/png/512/424/424212.png" width="50px" style="margin-right: 20px"></span>
+                <span class="fs-4"><img src="/assets/logo.png" width="50px" style="margin-right: 20px"></span>
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img class="rounded-lg-3" src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80" alt="" width="720">
+                    <img class="rounded-lg-3" src="/assets/tacos.jpeg" alt="" width="720">
                 </div>
             </div>
         </div>
