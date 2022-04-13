@@ -37,4 +37,4 @@ jobs:
       run: aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME_FASTLY_102 }} --delete
     - name: "Purge Fastly cache"
       run: |
-        curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_KEY }}" "https://api.fastly.com/service/${{ secrets.FASTLY_102_SERVICE }}/purge_all"
+        curl -X POST -H "Fastly-Key: ${{ secrets.FASTLY_102_KEY }}" "https://api.fastly.com/service/${{ secrets.FASTLY_102_SERVICE }}/purge_all"
