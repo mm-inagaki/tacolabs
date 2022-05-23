@@ -3,6 +3,7 @@ layout: default
 title: "Baja Fish Tacos"
 date: 2021-07-01
 categories: "tacos"
+image: "baja-fish-tacos.jpg"
 ---
 
 In [Baja, Mexico](http://en.wikipedia.org/wiki/Baja_California_peninsula) you'll find carts by the side of the road serving fresh, delicious fish tacos. There is nothing else like it in the world but this recipe will get you close if you can find fish fresh enough.

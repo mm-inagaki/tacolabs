@@ -34,6 +34,10 @@
         </header>
         <div class="container">
             <h1 class="mt-4 mb-4">{{ page.title }}</h1>
+            {% if page.image %}<img src="https://io.tacolabs.com/assets/{{ page.image }}?width=1296&height=864&fit=crop" class="img-fluid">
+            <br><br>
+            <h2>Recipe</h2>
+            {% endif %}
             {{ content }}
         </div>
     </body>

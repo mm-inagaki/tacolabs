@@ -3,6 +3,7 @@ layout: default
 title: "Baja Beer Battered Fish"
 date: 2021-07-01
 categories: "base-layers"
+image: "baja-beer-battered-fish.jpg"
 ---
 
 This is the beer battered fish for [Baja fish tacos](/tacos/2021/07/01/baja-fish-tacos.html).

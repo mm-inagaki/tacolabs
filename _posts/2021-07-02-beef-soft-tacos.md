@@ -3,6 +3,7 @@ layout: default
 title: "Beef soft tacos"
 date: 2021-07-02
 categories: "tacos"
+image: "beef-soft-tacos.jpg"
 ---
 
 Prepare seasoned beef using recipe at seasoned beef, or just reheat remaining beef from previous meal.

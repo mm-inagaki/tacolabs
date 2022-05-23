@@ -8,10 +8,23 @@ This is where you'll find meats, beans, tofu, and other things that make up the 
 
 
 {% assign filtered_posts = site.posts | where: "categories", "base-layers" %}
+<div class="row row-cols-1 row-cols-md-2 g-4">
 {% for post in filtered_posts %}
-
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
-
+<div class="col">
+<div class="card mb-3" style="max-width: 540px;">
+<div class="row g-0">
+    <div class="col-md-4">
+        <a href="{{ post.url }}"><img src="https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop" class="img-fluid rounded-start" alt="..."></a>
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+        <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
+        <p class="card-text">{{ post.excerpt }}</p>
+    </div>
+    </div>
+</div>
+</div>
+</div>
 {% endfor %}
+</div>
 
