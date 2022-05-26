@@ -13,7 +13,14 @@ This contains full descriptions of tacos. Those tacos may contain additional ele
 <div class="card mb-3" style="max-width: 540px;">
 <div class="row g-0">
     <div class="col-md-4">
-        <a href="{{ post.url }}"><img src="https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop" class="img-fluid rounded-start" alt="..."></a>
+        <a href="{{ post.url }}">
+            <img srcset="https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop&dpr=1.5 1.5x,
+                         https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop&quality=40&dpr=2 2x,
+                         https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop&quality=15&dpr=3 3x"
+                         src="https://io.tacolabs.com/assets/{{ post.image }}?width=180&height=270&fit=crop"
+                         alt="{{ post.title }}" height="270" width="180"
+            />
+        </a>
     </div>
     <div class="col-md-8">
     <div class="card-body">
