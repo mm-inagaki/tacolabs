@@ -49,8 +49,10 @@
                          alt="{{ page.title }}" class="img-fluid"
             />
             {% endif %}
+            {% if page.categories %}
             <br><br>
             <h2>Recipe</h2>
+            {% endif %}
             {{ content }}
         </div>
     </body>
