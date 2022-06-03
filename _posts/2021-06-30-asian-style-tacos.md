@@ -3,6 +3,7 @@ layout: default
 title: "Asian Style Tacos"
 date: 2021-06-30
 categories: "tacos"
+image: "asian-style-tacos.jpg"
 ---
 
 If you like a lighter asian style taco with no cheese, give this one a try. Use tofu to make these vegetarian-friendly!

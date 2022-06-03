@@ -1,0 +1,7 @@
+
+<img srcset="{{ include.url }}?width=300&dpr=1.5 1.5x,
+             {{ include.url }}?width=300&quality=40&dpr=2 2x,
+             {{ include.url }}?width=300&quality=15&dpr=3 3x"
+    src="{{ include.url }}?width=300"
+    alt="{{ include.alt | xml_escape }}" class="img-fluid"
+/>

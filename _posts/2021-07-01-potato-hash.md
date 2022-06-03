@@ -3,6 +3,7 @@ layout: default
 title: "Potato hash"
 date: 2021-07-01
 categories: "mix-ins"
+image: "potato-hash.jpg"
 ---
 
 Peel and dice potatoes, throw in a pan with a 1/4 or so of water, cover and cook on medium-high until potatoes are soft.

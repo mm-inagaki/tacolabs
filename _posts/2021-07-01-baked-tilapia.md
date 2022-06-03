@@ -3,6 +3,7 @@ layout: default
 title: "Baked Tilapia"
 date: 2021-07-01
 categories: "base-layers"
+image: "baked-tilapia.jpg"
 ---
 
 Oven fried fish for when you think you want to pretend you're eating healthier.

@@ -18,10 +18,17 @@
             <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                <span class="fs-4"><img src="/assets/logo.png" width="50px" style="margin-right: 20px"></span>
+                <span class="fs-4">
+                    <img srcset="https://io.tacolabs.com/assets/logo.png?width=50&dpr=1.5 1.5x,
+                                 https://io.tacolabs.com/assets/logo.png?width=50&dpr=2 2x,
+                                 https://io.tacolabs.com/assets/logo.png?width=50&dpr=3 3x"
+                                 src="https://io.tacolabs.com/assets/logo.png?width=50"
+                                 alt="Taco Labs logo" width="50" height="50"
+                    />                
+                </span>
                 </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="padding-left: 20px;">
                 <li><a href="/tacos" class="nav-link px-2 link-dark">Tacos</a></li>
                 <li><a href="/base-layers" class="nav-link px-2 link-dark">Base layers</a></li>
                 <li><a href="/mix-ins" class="nav-link px-2 link-dark">Mix-ins</a></li>
