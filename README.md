@@ -1,6 +1,6 @@
 # Introduction to Fastly Image Optimizer :framed_picture:
 
-This is the example static website for the [*Introduction to Fastly Image Optimizer*](https://docs.fastly.com/en/introduction/) tutorial. 
+This is the example static website for the *Introduction to Fastly Image Optimizer* tutorial. 
 
 ## How to use this
 
