@@ -1,6 +1,6 @@
 # Fastly 101 :taco:
 
-This is the example static website for the [*Fastly 101*](https://docs.fastly.com/en/fastly-101/) tutorial. 
+This is the example static website for the [*Fastly 101*](https://docs.fastly.com/en/fundamentals/fastly-101) tutorial. 
 
 ## How to use this
 
