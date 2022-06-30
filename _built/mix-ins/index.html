@@ -3,6 +3,7 @@
     <head>
         <title>Taco Labs: For the love of taco</title>
         <!-- Required meta tags -->
+        <meta name="robots" content="noindex">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap CSS -->
@@ -16,10 +17,17 @@
             <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-                <span class="fs-4"><img src="https://image.flaticon.com/icons/png/512/424/424212.png" width="50px" style="margin-right: 20px"></span>
+                <span class="fs-4">
+                    <img srcset="https://io.tacolabs.com/assets/logo.png?width=50&dpr=1.5 1.5x,
+                                 https://io.tacolabs.com/assets/logo.png?width=50&dpr=2 2x,
+                                 https://io.tacolabs.com/assets/logo.png?width=50&dpr=3 3x"
+                                 src="https://io.tacolabs.com/assets/logo.png?width=50"
+                                 alt="Taco Labs logo" height="50" width="50"
+                    />
+                </span>
                 </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="padding-left: 20px;">
                 <li><a href="/tacos" class="nav-link px-2 link-dark">Tacos</a></li>
                 <li><a href="/base-layers" class="nav-link px-2 link-dark">Base layers</a></li>
                 <li><a href="/mix-ins" class="nav-link px-2 link-dark">Mix-ins</a></li>
@@ -33,18 +41,40 @@
         </header>
         <div class="container">
             <h1 class="mt-4 mb-4">Mix-ins</h1>
+            
+            
             The base is important, but what you add to it is what makes the taco glow.<br><br>
 
 
 
+<div class="row row-cols-1 row-cols-md-2 g-4">
 
-
-    <h2><a href="/mix-ins/2021/07/01/potato-hash.html">Potato hash</a></h2>
-    <p>Peel and dice potatoes, throw in a pan with a 1/4 or so of water, cover and cook on medium-high until potatoes are soft.
+<div class="col">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <a href="/mix-ins/2021/07/01/potato-hash.html">
+                    <img srcset="https://io.tacolabs.com/assets/potato-hash.jpg?width=180&height=270&fit=crop&dpr=1.5 1.5x,
+                                https://io.tacolabs.com/assets/potato-hash.jpg?width=180&height=270&fit=crop&quality=40&dpr=2 2x,
+                                https://io.tacolabs.com/assets/potato-hash.jpg?width=180&height=270&fit=crop&quality=15&dpr=3 3x"
+                                src="https://io.tacolabs.com/assets/potato-hash.jpg?width=180&height=270&fit=crop"
+                                alt="Potato hash" width="180" height="270"
+                    />
+                </a>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="/mix-ins/2021/07/01/potato-hash.html">Potato hash</a></h5>
+                    <p class="card-text"><p>Peel and dice potatoes, throw in a pan with a 1/4 or so of water, cover and cook on medium-high until potatoes are soft.
 Once potatoes are soft, lower to medium heat add green onions, chiles, spices and olive oil. Cook until hash-like. BOOM.</p>
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
+</div>
 
 
         </div>
