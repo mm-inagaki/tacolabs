@@ -1,16 +1,16 @@
-# Fastly 101 :taco:
+# Introduction to Fastly's CDN :taco:
 
-This is the example static website for the [*Fastly 101*](https://docs.fastly.com/en/fundamentals/fastly-101) tutorial. 
+This is the example static website for the [*Introduction to Fastly's CDN*](https://docs.fastly.com/en/fundamentals/fastly-cdn) tutorial. 
 
 ## How to use this
 
-You can fork or clone the repository, check out the `fastly-101` branch, and use the [Jekyll static site generator](https://jekyllrb.com) to build the site from scratch.
+You can fork or clone the repository, check out the `fastly-cdn` branch, and use the [Jekyll static site generator](https://jekyllrb.com) to build the site from scratch.
 
 Alternatively, if you'd prefer not to install Jekyll and the dependencies, you can access the fully built website in the `_built` directory. You could manually upload the HTML files and assets in that directory to an Amazon S3 bucket.
 
 ## Running locally
 
-It can be helpful to preview changes on your computer. After forking or cloning this repository and checking out the `fastly-101` branch, perform the following steps to generate the site and preview it:
+It can be helpful to preview changes on your computer. After forking or cloning this repository and checking out the `fastly-cdn` branch, perform the following steps to generate the site and preview it:
 
 - Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
 - `bundle install`
