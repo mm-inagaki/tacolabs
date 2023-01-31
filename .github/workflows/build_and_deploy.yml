@@ -2,9 +2,9 @@ name: CI / CD
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push for the fastly-102 branch
+  # Triggers the workflow on push for the fastly-io branch
   push:
-    branches: [ fastly-102 ]
+    branches: [ fastly-io ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
