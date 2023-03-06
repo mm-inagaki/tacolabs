@@ -1,0 +1,19 @@
+name: Deploy Taco Labs Serverless Application
+on:
+  push:
+    branches: [fastly-compute]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install project dependencies
+      run: npm install
+
+    - name: Deploy to Compute@Edge
+      uses: fastly/compute-actions@v5
+      service_id: ${{ secrets.FASTLY_COMPUTE_ID }}
+      env:
+        FASTLY_API_TOKEN: ${{ secrets.FASTLY_COMPUTE_KEY }}

@@ -1,9 +1,12 @@
-# Taco Labs :taco:
+# Introduction to Compute@Edge 
 
-This repository contains the example static websites for the Fastly documentation tutorials. Each branch in this repository corresponds to a different tutorial. Click a link below to learn more and clone the example website for the tutorial you're working on:
+This branch contains the final iteration of the serverless application for the *Introduction to Compute@Edge* tutorial.
 
-- [Introduction to Fastly's CDN](https://github.com/fastly/tacolabs/tree/fastly-cdn) 
-- [Introduction to Fastly Image Optimizer](https://github.com/fastly/tacolabs/tree/fastly-io) 
+## How to use this
+
+You can follow along with the *Introduction to Compute@Edge* tutorial by viewing the source code for each of the serverless applications presented. Each change to the application is stored in a separate branch.
+
+We've removed the service ID information from the `fastly.toml` configuration file. If you want to try deploying this application, you'll need to edit the `fastly.toml` to update the author information and add your service ID.
 
 ## Security concerns
 
