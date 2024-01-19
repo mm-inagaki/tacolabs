@@ -12,7 +12,7 @@ jobs:
     - name: Install project dependencies
       run: npm install
 
-    - name: Deploy to Compute@Edge
+    - name: Deploy to Compute
       uses: fastly/compute-actions@v5
       with:
         service_id: ${{ secrets.FASTLY_COMPUTE_ID }}

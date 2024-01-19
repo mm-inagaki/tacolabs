@@ -1,10 +1,10 @@
-# Introduction to Compute@Edge 
+# Introduction to Compute
 
-This branch contains the final iteration of the serverless application for the *Introduction to Compute@Edge* tutorial.
+This branch contains the final iteration of the serverless application for the *Introduction to Compute* tutorial.
 
 ## How to use this
 
-You can follow along with the *Introduction to Compute@Edge* tutorial by viewing the source code for the serverless application. Each change to the application corresponds to a section of the tutorial and is stored in a separate branch:
+You can follow along with the *Introduction to Compute* tutorial by viewing the source code for the serverless application. Each change to the application corresponds to a section of the tutorial and is stored in a separate branch:
 
 - [Initialized application and first commit](https://github.com/fastly/tacolabs/tree/fastly-compute-1)
 - [Added origin hostname](https://github.com/fastly/tacolabs/tree/fastly-compute-2) - [diff](https://github.com/fastly/tacolabs/commit/189e46938f4ec8c852c02d10b0045e8fed500eff)
