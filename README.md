@@ -7,7 +7,7 @@ This branch contains the final iteration of the serverless application for the [
 You can follow along with the *Introduction to Compute* tutorial by viewing the source code for the serverless application. Each change to the application corresponds to a section of the tutorial and is stored in a separate branch:
 
 - [Initialize application and first commit](https://github.com/fastly/tacolabs/tree/fastly-compute-v1)
-- [Hello, world!](https://github.com/fastly/tacolabs/tree/fastly-compute-v2)
+- [Hello, world!](https://github.com/fastly/tacolabs/tree/fastly-compute-v2) - [diff](https://github.com/fastly/tacolabs/commit/b05dc1e62e774eb96e7a6e3a799d6832021f2fbe)
 - [Add origin hostname](https://github.com/fastly/tacolabs/tree/fastly-compute-v3) - [diff](https://github.com/fastly/tacolabs/commit/ff292697076434934e1653a0623190108b6ad7ef)
 - [Set response headers](https://github.com/fastly/tacolabs/tree/fastly-compute-v4) - [diff](https://github.com/fastly/tacolabs/commit/3390165e0c7c19dfbe0268894de1c371f7ce3420)
 - [Create custom 404 response](https://github.com/fastly/tacolabs/tree/fastly-compute-v5) - [diff](https://github.com/fastly/tacolabs/commit/c2bf5122efd2644872bd31ea1630a6129e0824d6)
