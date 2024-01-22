@@ -1,9 +1,12 @@
-# Taco Labs :taco:
+# Introduction to Compute
 
-This repository contains the example static websites for the Fastly documentation tutorials. Each branch in this repository corresponds to a different tutorial. Click a link below to learn more and clone the example website for the tutorial you're working on:
+This branch contains an iteration of the serverless application for the *Introduction to Compute* tutorial.
 
-- [Introduction to Fastly's CDN](https://github.com/fastly/tacolabs/tree/fastly-cdn) 
-- [Introduction to Fastly Image Optimizer](https://github.com/fastly/tacolabs/tree/fastly-io) 
+## How to use this
+
+Refer to the [branch of the final iteration](https://github.com/fastly/tacolabs/tree/fastly-compute) for complete instructions.
+
+We've removed the service ID information from the `fastly.toml` configuration file. If you want to try deploying this application, you'll need to edit the `fastly.toml` to update the author information and add your service ID.
 
 ## Security concerns
 
