@@ -2,13 +2,15 @@
 
 import { includeBytes } from "fastly:experimental";
 
-// Load a static file as a Uint8Array at compile time.
+// Load static files as a Uint8Array at compile time.
 // File path is relative to root of project, not to this file
 const notfoundPage = includeBytes("./src/not-found.html");
+const robotsPage = includeBytes("./src/robots.txt");
 
 const handler = async (event) => {
  // get the request from the client
  const req = event.request
+ const reqURL = new URL(req.url)
 
  const backendResponse = await fetch(req, {
    backend: "vcl-origin",
@@ -19,6 +21,13 @@ const handler = async (event) => {
  if (backendResponse.status == 404) {
    return new Response(notfoundPage, {
      status: 404,
+   });
+ }
+
+ // Return robots.txt with a custom response
+ if (reqURL.pathname.endsWith("/robots.txt")) {
+   return new Response(robotsPage, {
+     status: 200,
    });
  }
 
