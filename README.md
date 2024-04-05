@@ -1,6 +1,6 @@
 # Introduction to Compute
 
-This branch contains the final iteration of the serverless application for the [*Introduction to Compute*](https://docs.fastly.com/en/tutorials/compute) tutorial.
+This branch contains the final iteration of the serverless application for the [*Introduction to Compute*](https://www.fastly.com/documentation/solutions/tutorials/introduction-to-compute/) tutorial.
 
 ## How to use this
 
