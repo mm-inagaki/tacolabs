@@ -1,6 +1,6 @@
 # Introduction to Fastly's CDN :taco:
 
-This is the example static website for the [*Introduction to Fastly's CDN*](https://docs.fastly.com/en/fundamentals/fastly-cdn) tutorial. 
+This is the example static website for the [*Introduction to Fastly's CDN*](https://www.fastly.com/documentation/solutions/tutorials/introduction-to-cdn/) tutorial. 
 
 ## How to use this
 
